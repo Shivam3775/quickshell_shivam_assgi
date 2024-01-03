@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/quickshell_shivam_assgi/static/css/main.8e204130.css",
+    "main.js": "/quickshell_shivam_assgi/static/js/main.b3ba8289.js",
+    "index.html": "/quickshell_shivam_assgi/index.html",
+    "main.8e204130.css.map": "/quickshell_shivam_assgi/static/css/main.8e204130.css.map",
+    "main.b3ba8289.js.map": "/quickshell_shivam_assgi/static/js/main.b3ba8289.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e204130.css",
+    "static/js/main.b3ba8289.js"
+  ]
+}
