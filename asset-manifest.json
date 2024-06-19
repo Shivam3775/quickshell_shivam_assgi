@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/quickshell_shivam_assgi/static/css/main.8e204130.css",
-    "main.js": "/quickshell_shivam_assgi/static/js/main.f4ed7fb4.js",
+    "main.css": "/quickshell_shivam_assgi/static/css/main.5f8d9f71.css",
+    "main.js": "/quickshell_shivam_assgi/static/js/main.a6a04700.js",
     "index.html": "/quickshell_shivam_assgi/index.html",
-    "main.8e204130.css.map": "/quickshell_shivam_assgi/static/css/main.8e204130.css.map",
-    "main.f4ed7fb4.js.map": "/quickshell_shivam_assgi/static/js/main.f4ed7fb4.js.map"
+    "main.5f8d9f71.css.map": "/quickshell_shivam_assgi/static/css/main.5f8d9f71.css.map",
+    "main.a6a04700.js.map": "/quickshell_shivam_assgi/static/js/main.a6a04700.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e204130.css",
-    "static/js/main.f4ed7fb4.js"
+    "static/css/main.5f8d9f71.css",
+    "static/js/main.a6a04700.js"
   ]
 }
