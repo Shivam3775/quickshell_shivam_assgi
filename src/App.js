@@ -7,6 +7,7 @@ const apiUrl = 'https://api.quicksell.co/v1/internal/frontend-assignment';
 
 function App() {
   const [data, setData] = useState(null);
+  //const [displayOption,setDisplayOption]=useState('Display')
   const [groupingOption, setGroupingOption] = useState('status');
   const [sortingOption, setSortingOption] = useState('priority');
 
@@ -99,22 +100,24 @@ function App() {
     <div className="App">
       {/* <h1>Lead Frontend assignment by Shivam Gupta</h1> */}
       {/* <h1>Kanban Board App</h1> */}
+      
+
       <div className="options">
-        <label>
-          Group by:
-          <select onChange={(e) => handleGroupingChange(e.target.value)} value={groupingOption}>
+
+      <label>Group by:&nbsp;</label>
+           <select onChange={(e) => handleGroupingChange(e.target.value)} value={groupingOption}>
             <option value="status">Status</option>
             <option value="userId">User</option>
             <option value="priority">Priority</option>
-          </select>
-        </label>
-        <label>
-          Sort by:
+           </select>
+        
+          <br/>
+
+          <label>Sort by:&nbsp;</label>
           <select onChange={(e) => handleSortingChange(e.target.value)} value={sortingOption}>
             <option value="priority">Priority</option>
             <option value="title">Title</option>
           </select>
-        </label>
       </div>
       <Board columns={columns} groupedTasks={groupedAndSortedTasks} />
     </div>
